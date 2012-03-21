@@ -1,0 +1,23 @@
+
+/** Remove all elements margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 750px;
+    margin: 0 auto;
+    background: #cccccc;
+}
+
+.container {
+
+    .content {
+        background: #ffffff;
+        border: 2px solid #bbb;
+        border-top: 0;
+        padding: 15px;
+    }
+
+}

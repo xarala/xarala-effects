@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <title>XaralaEffects</title>
+      <%= stylesheet_link_tag    "application", :media => "all" %>
+      <%= csrf_meta_tags %>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="line">
+                <div class="unit size3of4">
+                  <div class="content"><%= yield %></div>
+                </div>
+                <div class="unit size1of4 lastUnit">
+                   <h1>Xarala</h1>
+                  <nav>
+                    <ol>
+                        <li><a href="http://www.xarala.sn">about us</a></li>
+                        <li><a href="http://www.facebook.com">facebook</a></li>
+                        <li><a href="http://github.com/xarala">projects</a></li>
+                    </ol>
+                  </nav>
+                </div>
+            </div>
+        </div>
+
+        <%= javascript_include_tag "application" %>
+
+    </body>
+</html>
